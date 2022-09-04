@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.green {
+    background-color: rgba(0,99,65,1);
+   height: 10px;
+}
+
+.links:hover{
+    cursor: pointer;
+
+}
+
+.navbar-container{
+    padding: 2px 0px 0px 119px;
+
+}
+.navbar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-container {
+    width: 164px; 
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    justify-content: flex-start;
+}
+
+.header ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   list-style: none;
+   padding: 28px 119px 0px 94px;
+
+}
+.header ul li {
+     padding: 0px 0px 0px 4px; 
+}
+.photo1 img{
+    width: 100%;
+    justify-content: center;
+    height: 580px;
+}
+.photo2 img{
+    width: 100%;
+    justify-content: center;
+    height: 600px;
+    margin-top: -4px;
+}
+.photo3 img{
+    width: 100%;
+    justify-content: center;
+    height: 600px;
+    margin-top: -5px;
+}
+.photo4 img{
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    margin-top: -4px;
+}
+.photo5 img{
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    margin-top: -4px;
+}
+
+.photo6 img{
+    width: 100%;
+    justify-content: center;
+    height: 500%;
+}
+.photo7 img{
+    width: 100%;
+    justify-content: center;
+    height: 350%;
+    margin-top: -4px;
+}
+.photo8 img{
+    width: 100%;
+    justify-content: center;
+    height: 350%;
+    margin-top: -4px;
+}
+.site{
+    height: 114px;
+    background-color: #ffffff;
+}
+.media1{
+    display: flex;
+    margin-left: 20px;
+    height: 1px;
+}
+.site img {
+    height: 82px;
+    padding: 0px 0px 0px 99px;
+}
+.footer{
+   display: grid;
+  grid-template-columns: 4fr 5fr 8fr 3fr; 
+  
+
+}
+.last-foot li{
+    list-style: none;
+    padding: 8px 0px 8px 0px;
+}
+
+.last-foot {
+    margin: 81px 0px 0px 160px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+ 
+}
+.final li{
+    list-style: none;
+    margin: 52px 0px 24px 111px ;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+.links1:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    height: 25px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.last img{
+height: 160px;
+width: 13;
+}
+.last img{
+    margin: 47px 0px 0px 0px;
+}
+.b:hover{
+    cursor: pointer;
+    color: #a7927e;
+}
+.footer a{
+    text-decoration: none;
+}
