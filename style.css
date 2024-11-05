@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.nav-w {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-w:hover {
+    color: #006241;
+}
+
+.bg1 {
+    background-color: #d4e9e2;
+}
+
+.bg2 {
+    background-color: #1e3932;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.article1 {
+    max-width: 70%;
+}
+
+.para {
+    font-size: 23px;
+}
+
+.para2 {
+    font-size: 18px;
+}
+
+.footer-article {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: #000000;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width:1022px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .article1 {
+        max-width: 89%;
+    }
+
+    para {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .article1 {
+        max-width: 99%;
+    }
+
+    para {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .footer-article {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .footer-article {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.foot-setting li {
+    list-style: none;
+}
+
+.foot-setting ul {
+    padding: 0;
+    line-height: 2.795em;
+}
+
+footer li {
+    color: rgba(0, 0, 0, 0.58);
+}
+
+footer li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+footer li {
+    list-style: none;
+    line-height: 2.795em;
+}
+
+@media only screen and (max-width:600px) {
+    .social-icons {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    .footer-table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .footer-table {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (min-width:1150px) {
+    .footer-bottom {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .footer-bottom {
+        margin-left: 2%;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .width-btw {
+        border-right: 2px solid rgba(0, 0, 0, 0.38);
+        margin-right: 10px;
+    }
+}
+
+.sc-icons-cursor{
+    cursor: pointer;
+}
+
+.footer-hvr {
+    font-size: 15px;
+}
+
+.footer-hvr:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.final-text {
+    font-size: .850em;
+    color: rgba(0, 0, 0, .58);
+}
