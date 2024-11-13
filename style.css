@@ -181,3 +181,23 @@ footer li {
     font-size: .850em;
     color: rgba(0, 0, 0, .58);
 }
+.footer__support-title {
+  text-align: center;  /* Center the title */
+  margin-bottom: 20px;  /* Add space below the title */
+}
+
+.footer__support-buttons {
+  display: flex;
+  justify-content: center;  /* Center the images horizontally */
+  gap: 20px;  /* Add space between the buttons */
+  margin-top: 20px;  /* Add space above the buttons */
+}
+
+.footer__support-buttons img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer__support-buttons img:hover {
+  transform: scale(1.05);  /* Hover effect */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
